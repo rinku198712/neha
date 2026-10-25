@@ -9,11 +9,11 @@ pipeline {
         }
         stage('run linux command') {
             steps {
-                sh ""
+                sh """
 				date
 				cal
 				dir
-				""
+				"""
 				            
 			}
 		}	
